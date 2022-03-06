@@ -7,7 +7,6 @@ import Head from 'next/head'
 
 import { useColorModeValue } from '@chakra-ui/color-mode'
 
-
 const Layout = ({ children, title }) => {
   const bgColor = useColorModeValue('gray.50', 'gray.800')
 
