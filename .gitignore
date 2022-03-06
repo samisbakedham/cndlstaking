@@ -1,3 +1,5 @@
 
 .next/static/webpack/webpack.1e924883fba00b9e35be.hot-update.js
 .next/cache
+.next/static
+.yarn/cache
