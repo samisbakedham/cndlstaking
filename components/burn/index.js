@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import LogRocket from 'logrocket';
 import { ethers } from 'ethers'
 import { ERC20, BPNUR, BNUR, CNDL } from '../../contracts'
 import {
@@ -11,6 +12,8 @@ import {
   } from '@chakra-ui/react'
   import { web3 } from '../../utils/ethers'
   import { useWeb3 } from '../../contexts/useWeb3'
+
+LogRocket.init('tkw33l/cndl');
 
   export default function onBurn() {
     const { chainId } = useWeb3([])
