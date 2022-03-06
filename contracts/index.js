@@ -3,7 +3,7 @@ import v3PositionsABI from './univ3Positions.json'
 import v3StakerABI from './univ3Staker.json'
 import batcherABI from './nftBatcher.json'
 import erc20ABI from './erc20.json'
-import burnerPolygonABI from './burner.json'
+import bpABI from './burner.json'
 
 export const v3Staker = {
   abi: v3StakerABI,
@@ -41,14 +41,18 @@ export const ERC20 = {
   abi: erc20ABI
 }
 
-export const burnerPolygon = {
+export const BPNUR = {
+  abi: bpABI
+}
+
+export const BNUR = {
   1: {
-    abi: burnerPolygonABI,
-    address: "0xf05DA838BCE31AA32F776b11a2De1B65AF15DbB6"
+    abi: bpABI,
+    address: '0xf05DA838BCE31AA32F776b11a2De1B65AF15DbB6'
   },
   137: {
-    abi: burnerPolygonABI,
-    address: "0xAb1eeDf9283760940b8c15256983E98C42A3E356"
+    abi: bpABI,
+    address: '0xAb1eeDf9283760940b8c15256983E98C42A3E356'
   }
 }
 
