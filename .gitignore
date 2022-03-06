@@ -3,3 +3,8 @@
 .next/cache
 .next/static
 .yarn/cache
+.next/server/pages/index.js
+.next/server/pages/burn.js
+.next/static/chunks/pages/burn.js
+.next/static/chunks/pages/index.js
+.next/static/chunks/webpack.js
